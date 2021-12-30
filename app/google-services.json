@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353323655605",
+    "project_id": "official-memo",
+    "storage_bucket": "official-memo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353323655605:android:057bbb10137d12fee8f9fc",
+        "android_client_info": {
+          "package_name": "com.sagini.officialmemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353323655605-jdmc1r4ps1urqgd2ub4jueuadgidq8ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByOdnM-sH2AS9N33KpS4Kw_-xBD44KXpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353323655605-jdmc1r4ps1urqgd2ub4jueuadgidq8ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
