@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Official Memo</string>
     <string name="enter_school_email">Enter School Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notice_board">Notice Board</string>
+    <string name="find_all_information_here">Find all information here</string>
 </resources>

@@ -7,6 +7,16 @@
         <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/fragment_nav_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/fragment_nav_login.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/fragment_nav_message.xml" value="0.1" />
+        <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/fragment_nav_rate.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/fragment_nav_share.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/fragment_settings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/fragment_sync.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/fragment_trash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/layout/nav_header.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Desktop/OfficialMemo/app/src/main/res/menu/my_navigation_items.xml" value="0.33" />
       </map>
     </option>
   </component>
