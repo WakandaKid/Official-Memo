@@ -3,8 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".navHomeFragment">
+
+
+
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
@@ -20,13 +24,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/notice_board"
-                    android:textSize="24sp"
-                    android:fontFamily="@font/poppins_medium"
-                    android:layout_centerHorizontal="true"/>
 
             </RelativeLayout>
 
@@ -39,38 +36,53 @@
 
                 <LinearLayout
                     android:id="@+id/featuredLayout"
-                    android:layout_width="170dp"
-                    android:layout_height="280dp"
+                    android:layout_width="148dp"
+                    android:layout_height="266dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginEnd="10dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
-                    android:background="#E8D5D5"
+                    android:background="@drawable/shape"
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/featured_memo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
-                        android:layout_marginTop="50dp"
+                        android:layout_marginTop="60dp"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="All Featured Memo"
+                        android:text="Featured Memo"
+                        android:textAlignment="center"
                         android:textAllCaps="true"
                         android:textColor="@color/black"
-                        android:textSize="25dp" />
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/all_information"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:text="@string/find_all_information_here" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Swipe to the Left"
+                        android:textColor="@color/black"
+                        android:textStyle="italic" />
+
+
                 </LinearLayout>
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/featured_recycler"
                     android:layout_width="match_parent"
-                    android:layout_height="280dp"
+                    android:layout_height="300dp"
                     android:layout_toRightOf="@+id/featuredLayout"
                     android:background="@color/white" />
             </RelativeLayout>
@@ -79,7 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:padding="20dp">
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -89,14 +101,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_medium"
-                        android:text="MOST IMPORTANT MEMO'S"
+                        android:text="SCHOOL EVENTS"
+                        android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/other_memo"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"/>
+                    android:layout_height="120dp"/>
 
 
 
@@ -106,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:padding="20dp">
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -115,15 +129,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="CATEGORIES"
                         android:fontFamily="@font/poppins_medium"
-                        android:textStyle="bold"
-                        android:textSize="20sp"/>
+                        android:text="CATEGORIES"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/categories"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"/>
+                    android:layout_height="200dp"/>
 
 
 
